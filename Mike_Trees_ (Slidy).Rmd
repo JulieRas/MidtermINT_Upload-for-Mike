@@ -1,0 +1,38 @@
+---
+title: "Analyzing Tree Growth by Volume"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Tree Dataset
+
+1.Data from R 
+
+2.Population of 31 observations
+
+3.Volume, Girth and Height
+
+
+## Tree data Plot
+```{r fig.width=10, fig.height=6}
+plot(trees)
+```
+
+
+## Tree data Summary
+
+Summary statictics
+```{r}
+summary(trees)
+```
+
+## Analysis
+Correlation Matrix
+
+
+```{r}
+cor(trees)
+```
